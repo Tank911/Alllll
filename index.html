@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Half-Life Download Song</title>
+  <style>
+  .btn-170 {
+    --icon_size: 25px;
+    --icon_color: #fff;
+    overflow: hidden;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: none;
+    background: radial-gradient(circle at center center, #d9ff96, #b4e692, #86ce73, #57b653, #299e33);
+    color: #ffffff;
+    padding: 15px 15px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    user-select: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    gap: 10px;
+    transition: all 350ms ease-out;
+    /*** full width block ***/
+    /* width: 100%; */
+}
+
+.btn-170 span {
+    display: block;
+    position: relative;
+    margin-left: 35px;
+    z-index: 1;
+}
+
+.btn-170 svg {
+    z-index: 0;
+    fill: var(--icon_color);
+    left: 25px;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+    transition: all 350ms ease-out;
+    width: var(--icon_size);
+    height: var(--icon_size);
+    position: absolute;
+}
+
+.btn-170:hover {
+    color: #000000;
+}
+
+.btn-170:hover svg {
+    transform: translate(-50%, -50%) rotate(360deg);
+    fill: rgb(0, 0, 0);
+}
+
+/*** disabled style ***/
+.btn-170:disabled {
+    pointer-events: none;
+    opacity: .65;
+    color: #7e7e7e;
+    background: #dcdcdc;
+    box-shadow: none;
+    text-shadow: none;
+    --icon_color: #7e7e7e;
+      }
+  </style>
+</head>
+<h1>Half-Life Download Song</h1>
+
+<h2>Click on the Song to download it:</h2>
+<p>Adrenaline Horror:</p>
+<a href="https://nu.vgmtreasurechest.com/soundtracks/half-life-original-soundtrack/ykdlusgz/01.%20Adrenaline%20Horror.mp3" download>
+  <button class="btn-170">
+      <svg fill="currentColor" viewBox="0 0 512 512"><path d="M256 464a208 208 0 1 1 0-416 208 208 0 1 1 0 416zM256 0a256 256 0 1 0 0 512A256 256 0 1 0 256 0zM376.9 294.6c4.5-4.2 7.1-10.1 7.1-16.3c0-12.3-10-22.3-22.3-22.3H304V160c0-17.7-14.3-32-32-32l-32 0c-17.7 0-32 14.3-32 32v96H150.3C138 256 128 266 128 278.3c0 6.2 2.6 12.1 7.1 16.3l107.1 99.9c3.8 3.5 8.7 5.5 13.8 5.5s10.1-2 13.8-5.5l107.1-99.9z"/></svg>
+      <span class="btn-text">Download</span>
+  </button>
+</a>
+<p>Vague Voices:</p>
+<a href="https://nu.vgmtreasurechest.com/soundtracks/half-life-original-soundtrack/exycqxnz/02.%20Vague%20Voices.mp3" download>
+  <button class="btn-170">
+      <svg fill="currentColor" viewBox="0 0 512 512"><path d="M256 464a208 208 0 1 1 0-416 208 208 0 1 1 0 416zM256 0a256 256 0 1 0 0 512A256 256 0 1 0 256 0zM376.9 294.6c4.5-4.2 7.1-10.1 7.1-16.3c0-12.3-10-22.3-22.3-22.3H304V160c0-17.7-14.3-32-32-32l-32 0c-17.7 0-32 14.3-32 32v96H150.3C138 256 128 266 128 278.3c0 6.2 2.6 12.1 7.1 16.3l107.1 99.9c3.8 3.5 8.7 5.5 13.8 5.5s10.1-2 13.8-5.5l107.1-99.9z"/></svg>
+      <span class="btn-text">Download</span>
+  </button>
+</a>
+</body>
+</html>
